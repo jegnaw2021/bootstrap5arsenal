@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/all.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container p-5 my-5 bg-dark text-white">
+            <h1>My First Bootstrap Page</h1>
+            <h5>This container has a dark background color and a white text, and some extra padding and margins.</h5>
+        </div>
+        <div class="container-sm bg-dark my-4 text-white">.container-sm</div>
+        <div class="container-md border my-4">.container-md</div>
+        <div class="container-lg bg-dark my-4 text-white">.container-lg</div>
+        <div class="container-xl border my-4">.container-xl</div>
+        <div class="container-xxl bg-dark my-4 text-white">.container-xxl</div>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-4 bg-dark text-white">col1</div>
+                <div class="col-sm-4 bg-primary text-white">col2</div>
+                <div class="col-sm-4 bg-dark text-white">col3</div>
+            </div>
+        </div>
+
+        <div class="container border p-5 my-5">
+            <div class="display-1">
+                This is a display heading
+            </div>
+            <div class="display-6">this is <mark><abbr title="this means secondary my friend">secondary</abbr></mark>
+                heading</div>
+        </div>
+
+        <div class="container border">
+            <div class="display-6">For 50 years, WWF has been protecting the future of nature. The world's leading
+                conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the
+                United States and close to 5 million globally.</div><br>
+            <p class="blockquote-footer">From WWF's website</p>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-sm-4">
+                <div class="container border bg-dark p-5 text-white">
+                    first column
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="container border bg-primary p-5">
+                    second column
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="container border bg-dark p-5 text-white">
+                    third column
+                </div>
+            </div>
+        </div>
+
+        <div class="container border p-5">
+            Coffee
+            <dl>-black hot drink</dl>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="container bg-primary text-white p-5">
+                        <h1 class="display-5">this is written in <code>code</code></h1>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="container p-5">
+                        <h1 class="display-6">this is written in <kbd>kbd</kbd></h1>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="container bg-primary text-white p-5">
+                        <h1 class="display-6">this is written in
+                            <pre>pre</pre>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container border p-5">
+            <p class="lead">
+                <kbd>.lead</kbd> Makes a paragraph stand out</p>
+            <p class="text-left"><kbd>.text-left</kbd> Indicates left-aligned text</p>
+            <p class="text-center"><kbd>.text-center</kbd> Indicates center-aligned text</p>
+            <p>
+                <a href="https://www.google.com" target="_blank"
+                    class="text-decoration-none"><kbd>.text-decoration-none</kbd>
+                    Removes the
+                    underline from a
+                    link</a>
+            </p>
+            <p class="text-end"><kbd>.text-end</kbd> Indicates right-aligned text</p>
+            <p class="text-nowrap"><kbd>.text-nowrap</kbd> Indicates no wrap text Indicates no wrap text Indicates no
+                wrap text Indicates no wrap text</p>
+            <p class="text-lowercase"><kbd>.text-lowercase</kbd> Indicates lowercased text <code>THIS</code> was
+                originally written in upper case</p>
+            <p class="text-uppercase"><kbd>.text-uppercase</kbd> Indicates uppercased text</p>
+            <p class="text-capitalize"><kbd>.text-capitalize</kbd> Indicates capitalized text</p>
+            <p class="initialism"><kbd>.initialism</kbd> Displays the text inside an <abbr
+                    title="a abbr text">&ltabbr&gt</abbr>
+                element in a slightly smaller font size</p>
+            <hr>
+            <div>
+                <p><kbd>.list-unstyled</kbd> Removes the default list-style and left margin on list items (works on both
+                    &ltul&gt and &ltol&gt). This class only applies to immediate children list items (to remove the
+                    default
+                    list-style from any nested lists, apply this class to any nested lists as well)</p>
+                <ul class="list-unstyled">
+                    <li>list one</li>
+                    <li>list two</li>
+                    <li>list three</li>
+                </ul>
+                <ol class="list-unstyled">
+                    <li>ordered one</li>
+                    <li>ordered two</li>
+                    <li>ordered three</li>
+                </ol>
+            </div>
+            <hr>
+            <p><kbd>.list-inline</kbd> Places all list items on a single line (used together with
+                <kbd>.list-inline-item</kbd>
+                on each &ltli&gt elements)</p>
+            <div>
+                <ul class="list-inline">
+                    <li class="list-inline-item">inline list item one</li>
+                    <li class="list-inline-item">inline list item two</li>
+                    <li class="list-inline-item">inline list item three</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid boarder p-5">
+            <hr>
+            <div class="container text-center text-white bg-dark">
+                <p class="text-center">
+                    <h1 class="display-1">Colors</h1>
+                </p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="container border p-5 mb-5">
+            <p class="display-2 text-muted text-capitalize">this text is muted</p>
+            <p class="display-2 text-primary text-capitalize">this text is important</p>
+            <p class="display-2 text-success text-capitalize">this is a success text</p>
+            <p class="display-2 text-info text-capitalize">this text represents some information</p>
+            <p class="display-2 text-warning text-capitalize">this text represents a warning</p>
+            <p class="display-2 text-capitalize text-danger">this text represents danger</p>
+            <p class="display-2 text-capitalize text-secondary">this is secondary colored text</p>
+            <p class="display-2 text-capitalize text-dark">this is dark grey text</p>
+            <p class="display-2 text-capitalize text-body">this is body colored text</p>
+            <p class="display-2 text-capitalize text-light">this light colored text</p>
+        </div>
+        <div class="container border my-3">
+            <p class="display-3 text-center"><kbd>Opacity Demo</kbd></p>
+        </div>
+        <div class="container bg-dark">
+            <p class="display-1 text-white-50">50% opacity for white colored text</p>
+        </div>
+        <div class="container">
+            <p class="display-1 text-black-50">50% opacity for primary colored text</p>
+        </div>
+        <div class="container border my-4 p-5 text-center">
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <p class="display-1 bg-primary"><abbr title="primary">b</abbr> </p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-success"><abbr title="success">a</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-info"><abbr title="info">c</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-warning"><abbr title="warning">k</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-danger"><abbr title="danger">g</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-secondary"><abbr title="secondary">r</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-dark text-white"><abbr title="dark">o</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-light"><abbr title="light">u</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-primary"><abbr title="primary">n</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1 bg-success"><abbr title="success">d</abbr></p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-1"> </p>
+                </li>
+                <li class="list-inline-item">
+                    <p class="display-3"><kbd>COLORs</kbd></p>
+                </li>
+            </ul>
+        </div>
+        <div class="container border p-5 text-center">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            <p class="display-1"><kbd>T</kbd></p>
+                        </th>
+                        <th>
+                            <p class="display-1">A</p>
+                        </th>
+                        <th>
+                            <p class="display-1"><kbd>B</kbd></p>
+                        </th>
+                        <th>
+                            <p class="display-1">L</p>
+                        </th>
+                        <th>
+                            <p class="display-1"><kbd>E</kbd></p>
+                        </th>
+                        <th>
+                            <p class="display-1">S</p>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <p class="display-1 text-center mt-5">Basic Table</p><br>
+        <div class="container">
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th>
+                            <p class="text-capitalize">first name</p>
+                        </th>
+                        <th>
+                            <p class="text-capitalize">last name</p>
+                        </th>
+                        <th>
+                            <p class="text-capitalize">email</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="display-1 text-center mt-5">Striped Table</p><br>
+        <div class="container">
+            <table class="table table-striped text-center">
+                <thead>
+                    <tr>
+                        <th>
+                            <p class="text-capitalize">first name</p>
+                        </th>
+                        <th>
+                            <p class="text-capitalize">last name</p>
+                        </th>
+                        <th>
+                            <p class="text-capitalize">email</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center mt-5">Bordered Table</p><br>
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th>
+                            <p class="text-capitalize">first name</p>
+                        </th>
+                        <th>
+                            <p class="text-capitalize">last name</p>
+                        </th>
+                        <th>
+                            <p class="text-capitalize">email</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center mt-5">Hovered Table</p><br>
+            <table class="table table-hover text-center">
+                <thead>
+                    <tr>
+                        <th>
+                            <p class="text-capitalize">first name</p>
+                        </th>
+                        <th>
+                            <p class="text-capitalize">last name</p>
+                        </th>
+                        <th>
+                            <p class="text-capitalize">email</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center mt-5">Black/Dark Table</p><br>
+            <table class="table table-dark text-center">
+                <thead>
+                    <tr>
+                        <th>
+                            First Name
+                        </th>
+                        <th>
+                            <div class="text-capitalize">last name</div>
+                        </th>
+                        <th>
+                            <div class="text-capitalize">email</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center mt-5">Black Striped Table</p><br>
+            <table class="table table-dark table-striped text-center">
+                <thead>
+                    <tr>
+                        <th>
+                            <div class="text-capitalize">first name</div>
+                        </th>
+                        <th>
+                            <div class="text-capitalize">last name</div>
+                        </th>
+                        <th>
+                            <div class="text-capitalize">email</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center mt-5">Hovered Dark Table</p><br>
+            <table class="table table-dark table-hover text-center">
+                <thead>
+                    <tr>
+                        <th>
+                            First Name
+                        </th>
+                        <th>
+                            <div class="text-capitalize">last name</div>
+                        </th>
+                        <th>
+                            <div class="text-capitalize">email</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center mt-5">Borderless Table</p><br>
+            <table class="table table-borderless text-center">
+                <thead>
+                    <tr>
+                        <th>
+                            First Name
+                        </th>
+                        <th>
+                            <div class="text-capitalize">last name</div>
+                        </th>
+                        <th>
+                            <div class="text-capitalize">email</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <div class="display-1 text-center my-5">Colored Table Examples</div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Class</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-primary">
+                        <td>.table-primary</td>
+                        <td>Blue: Indicates an important action</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>.table-success</td>
+                        <td>Green: Indicates a successful or positive action</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>.table-danger</td>
+                        <td>Red: Indicates a dangerous or potentially negative action</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td>.table-info</td>
+                        <td>Light blue: Indicates a neutral informative change or action</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>.table-warning</td>
+                        <td>Orange: Indicates a warning that might need attention</td>
+                    </tr>
+                    <tr class="table-active">
+                        <td>.table-active</td>
+                        <td>Grey: Applies the hover color to the table row or table cell</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td>.table-secondary</td>
+                        <td>Grey: Indicates a slightly less important action</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td>.table-light</td>
+                        <td>Light grey table or table row background</td>
+                    </tr>
+                    <tr class="table-dark">
+                        <td>.table-dark</td>
+                        <td>Dark grey table or table row background</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center my-5">Table Head Colors</p>
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th>
+                            First Name
+                        </th>
+                        <th>
+                            <div class="text-capitalize">last name</div>
+                        </th>
+                        <th>
+                            <div class="text-capitalize">email</div>
+                        </th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <div class="display-1 text-center my-5">Small Table</div>
+            <table class="table table-sm table-bordered">
+                <thead>
+                    <tr>
+                        <th>
+                            First Name
+                        </th>
+                        <th>
+                            <div class="text-capitalize">last name</div>
+                        </th>
+                        <th>
+                            <div class="text-capitalize">email</div>
+                        </th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>Doe</td>
+                        <td>jhon@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mery</td>
+                        <td>Moe</td>
+                        <td>mery@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abey</td>
+                        <td>Bruck</td>
+                        <td>bruckabey@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center my-5">Responsive Table</p>
+            <div class="table-responsive-sm">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                            <th>City</th>
+                            <th>Country</th>
+                            <th>Sex</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Anna</td>
+                            <td>Pitt</td>
+                            <td>35</td>
+                            <td>New York</td>
+                            <td>USA</td>
+                            <td>Female</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center my-5">Table Responsive on Screen Sizes</p>
+            <table class="table">
+                <thead class="table-primary display-6">
+                    <tr>
+                        <th><kbd>Class</kbd> </th>
+                        <th><kbd>Screen width</kbd></th>
+                    </tr>
+                </thead>
+                <tbody class="display-6">
+                    <tr>
+                        <td><code>.table-responsive-sm</code></td>
+                        <td>&lt 576px</td>
+                    </tr>
+                    <tr>
+                        <td><code>.table-responsive-md</code></td>
+                        <td>&lt 768px</td>
+                    </tr>
+                    <tr>
+                        <td><code>.table-responsive-lg</code></td>
+                        <td>&lt 992px</td>
+                    </tr>
+                    <tr>
+                        <td><code>.table-responsive-xl</code></td>
+                        <td>&lt 1200px</td>
+                    </tr>
+                    <tr>
+                        <td><code>.table-responsive-xxl</code></td>
+                        <td>&lt 1400px</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="image-container my-5">
+            <img src="image1.png" alt="image1 tree" style="width:100%;">
+            <div class="image-content">
+                <p class="display-1 text-center">Images</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p class="display-6">Fade in Overlay</p>
+                    <p>.image-container1</p>
+
+                    <div class="image-container1">
+                        <img src="image2.png" alt="Avatar" class="image1">
+                        <div class="overlay1">
+                            <div class="overlay-text1">image-container1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p class="display-6">Opacity with Box</p>
+                    <p>.image-container2</p>
+
+                    <div class="image-container2">
+                        <img src="image3.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="image-container2-text">image-container2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p class="display-6">Slide in Overlay from the Top</p>
+                    <p>.image-container3</p>
+
+                    <div class="image-container3">
+                        <img src="image4.png" alt="Avatar" class="container3-image">
+                        <div class="img-container3-overlay">
+                            <div class="image-container3-text">image-container3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-4">
+                    <p class="display-6">Slide in Overlay from the Bottom</p>
+                    <p>.image-container4</p>
+
+                    <div class="image-container4">
+                        <img src="image5.png" alt="Avatar" class="image">
+                        <div class="image-container4-overlay">
+                            <div class="image-container4-text">Hello World</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p class="display-6">Image Hover Fullscreen Zoom</p>
+                    <p>.image-container5</p>
+
+                    <div class="image-container5">
+                        <img src="image2.png" alt="Avatar" class="image">
+                        <div class="image-overlay5">
+                            <div class="text">Hello World</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p class="display-6">Image Overlay Title</p>
+                    <p>.image-container6</p>
+
+                    <div class="image-container6">
+                        <img src="image1.png" alt="Avatar" class="image">
+                        <div class="image-overlay6">My Name is Abey</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-4">
+
+                </div>
+                <div class="col-4">
+                    <p class="display-6">Fade in Overlay Icon</p>
+                    <p>image-container7</p>
+
+                    <div class="image-container7">
+                        <img src="image3.png" alt="Avatar" class="image">
+                        <div class="image-overlay7">
+                            <a href="#" class="icon7" title="User Profile">
+                                <i class="fas fa-kiss"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-6">
+                    <p class="display-3 text-center">Original Image</p>
+                    <img class="image" src="image1.png" alt="">
+                </div>
+                <div class="col-6">
+                    <p class="display-3 text-center">After black/white effect </p>
+                    <img class="image black-white-image" src="image1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-6">
+                    <p class="display-3 text-center">Original Image</p>
+                    <img class="image" src="image1.png" alt="">
+                </div>
+                <div class="col-6">
+                    <p class="display-3 text-center">Blur effect</p>
+                    <img src="image1.png" alt="" class="image blured-image">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="display-1 text-center">Bootstrap 5 Image Shapes</p>
+            <div class="row">
+                <div class="col-4">
+                    <p class="display-6">.rounded</p>
+                    <img src="image2.png" alt="" class="rounded img-fluid">
+                </div>
+                <div class="col-4">
+                    <p class="display-6">.rounded-circle</p>
+                    <img src="image3.png" alt="" class="rounded-circle img-fluid">
+                </div>
+                <div class="col-4">
+                    <p class="display-6">.img-thumbnail</p>
+                    <img src="image4.png" alt="" class="img-thumbnail img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <p class="display-1 text-center mb-5">Aligning Images</p>
+            <img src="image4.png" alt="" class="float-start img-fluid" style="width: 30%;">
+            <img src="image4.png" alt="" class="float-end img-fluid" style="width: 30%;">
+        </div>
+        <div class="container my-5">
+            <p class="display-1 mb-5">Centering Image</p>
+            <img src="image4.png" alt="" class="mx-auto d-block">
+        </div>
+        <div class="container my-5">
+            <p class="display-1 text-center">Responsive Images</p>
+            <img src="image5.png" alt="" class="img-fluid">
+        </div>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
